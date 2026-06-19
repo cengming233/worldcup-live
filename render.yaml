@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: worldcup-live
+    env: node
+    buildCommand: npm install
+    startCommand: node server.mjs
+    plan: free
