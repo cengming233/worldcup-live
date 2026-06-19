@@ -1,0 +1,13 @@
+{
+  "name": "worldcup-live",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "2026世界杯实时直播 + AI分析",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.22.2"
+  }
+}
